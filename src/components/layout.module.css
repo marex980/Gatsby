@@ -8,6 +8,7 @@
   }
   .nav-links {
     display: flex;
+    justify-content: flex-end;
     list-style: none;
     padding-left: 0;
   }
