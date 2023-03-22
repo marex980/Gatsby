@@ -6,7 +6,7 @@
   "keywords": [
     "gatsby"
   ],
-"scripts": {
+  "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop -p 5000",
     "build": "gatsby build",
@@ -16,14 +16,13 @@
     "plop": "plop"
   },
   "dependencies": {
-    "@netlify/plugin-gatsby": "^3.6.0",
-    "cypress": "^10.0.3",
-    "gatsby": "^4.5.4",
-    "gatsby-plugin-manifest": "^4.14.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-helmet": "^6.1.0",
-    "react-slick": "^0.29.0"
+    "@babel/core": "^7.12.3",
+    "gatsby": "^5.0.0-next",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-sharp": "^5.0.0-next",
+    "gatsby-source-filesystem": "^5.0.0-next",
+    "react": "^18.0.0 || ^0.0.0",
+    "react-dom": "^18.0.0 || ^0.0.0"
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^5.0.0",
